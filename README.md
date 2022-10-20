@@ -2,6 +2,7 @@
 ## Descargando datos de la web
 
 ### Nivel de educación y pobreza: ¿nexos de la violencia en México?
+### Ana Daniela Pérez Romero
 
 El objetivo de este proyecto es examinar la influencia de la educación y la pobreza sobre la delincuencia en México. Actualmente, el país está atravesando por una enorme crisis de violencia social; probablemente la más grande de su historia, por ello, esta situación ha incitado que la población quiera encontrar explicaciones, incluyéndome. La más socorrida es la que señala a la falta de oportunidades educativas y a la pobreza como los orígenes de estos conflictos; ¿una sociedad pobre pero más educada tendría una tasa delictiva más baja?
 
@@ -16,6 +17,7 @@ Para esta primera etapa de investigación, se hará la descarga de datos que nos
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
 Mandamos llamar nuestras librerías:
 
 ```{r}
@@ -49,19 +51,165 @@ educacion<-educacion$data
 
 educacion <- educacion[, -7]
 
+colnames(educacion)[1] = "MunicipalityID"
+
 colnames(educacion)[4] = "LevelID"
 
 educacion
 
 ```
 
-### Definición de nuestras variables:
+**Definición de nuestras variables:**
 
-**Municipality ID** y **Municipality**: se relacionan directamente, la primera nos da el código y la segunda el nombre del municipio.
+**MunicipalityID** y **Municipality**: se relacionan directamente, la primera nos da el código y la segunda el nombre del municipio.
+
+26001	Aconchi
+
+26002	Agua Prieta
+
+26003	Alamos
+
+26004	Altar
+
+26005	Arivechi
+
+26006	Arizpe
+
+26007	Atil
+
+26008	Bacadéhuachi
+
+26009	Bacanora
+
+26010	Bacerac
+
+26011	Bacoachi
+
+26012	Bácum
+
+26013	Banámichi
+
+26014	Baviácora
+
+26015	Bavispe
+
+26016	Benjamín Hill
+
+26017	Caborca
+
+26018	Cajeme
+
+26019	Cananea
+
+26020	Carbó
+
+26021	La Colorada
+
+26022	Cucurpe
+
+26023	Cumpas
+
+26024	Divisaderos
+
+26025	Empalme
+
+26026	Etchojoa
+
+26027	Fronteras
+
+26028	Granados
+
+26029	Guaymas
+
+26030	Hermosillo
+
+26031	Huachinera
+
+26032	Huásabas
+
+26033	Huatabampo
+
+26034	Huépac
+
+26035	Imuris
+
+26036	Magdalena
+
+26037	Mazatán
+
+26038	Moctezuma
+
+26039	Naco
+
+26040	Nácori Chico
+
+26041	Nacozari de García
+
+26042	Navojoa
+
+26043	Nogales
+
+26044	Ónavas
+
+26045	Opodepe
+
+26046	Oquitoa
+
+26047	Pitiquito
+
+26048	Puerto Peñasco
+
+26049	Quiriego
+
+26050	Rayón
+
+26051	Rosario
+
+26052	Sahuaripa
+
+26053	San Felipe de Jesús
+
+26054	San Javier
+
+26055	San Luis Río Colorado
+
+26056	San Miguel de Horcasitas
+
+26057	San Pedro de la Cueva
+
+26058	Santa Ana
+
+26059	Santa Cruz
+
+26060	Sáric
+
+26061	Soyopa
+
+26062	Suaqui Grande
+
+26063	Tepache
+
+26064	Trincheras
+
+26065	Tubutama
+
+26066	Ures
+
+26067	Villa Hidalgo
+
+26068	Villa Pesqueira
+
+26069	Yécora
+
+26070	General Plutarco Elías Calles
+
+26071	Benito Juárez
+
+26072	San Ignacio Río Muerto
 
 **Year**: es el años de registro.
 
-**Level ID** e **Instruction Level**: se relacionan directamente, la primera nos da el código y la segunda el nombre del nivel educativo. Los niveles de ID van de menor a mayor.
+**LevelID** e **Instruction Level**: se relacionan directamente, la primera nos da el código y la segunda el nombre del nivel educativo. Los niveles de ID van de menor a mayor.
 
 0-Ningun nivel de educación
 
@@ -80,6 +228,7 @@ educacion
 7-Profesional
 
 8-Maestría
+
 
 
 Observamos la metadata de nuestros datos y confirmamos que no hay valores nulos:
@@ -102,13 +251,16 @@ names(crimenes)
 
 crimenes<-crimenes$data
 
+colnames(crimenes)[1] = "MunicipalityID"
+
 crimenes
 
 ```
 
-### Definición de nuestras variables:
 
-**Municipality ID** y **Municipality**: se relacionan directamente, la primera nos da el código y la segunda el nombre del municipio.
+**Definición de nuestras variables:**
+
+**MunicipalityID** y **Municipality**: se relacionan directamente, la primera nos da el código y la segunda el nombre del municipio.
 
 **Year**: es el años de registro.
 
@@ -212,7 +364,7 @@ vtable(educacion)
 Ya que el fin del proyecto va mas enfocado a dar énfasis al nivel educativo que al tipo de crimen, agrupamos todos los tipos de crímenes por municipio y año:
 
 ```{r}
-crimenesxaño <- crimenes %>% group_by(Municipality, Year)
+crimenesxaño <- crimenes %>% group_by(MunicipalityID, Year)
 ```
 
 Una vez agrupados lo que queremos visualizar es la sumatoria del número de crímenes:
@@ -222,6 +374,7 @@ dfcrimenes <- crimenesxaño %>% summarise(
   NumCrimenes = sum(Value) 
   )
 ```
+
 
 El sistema educativo de México está compuesto por tres tipos de enseñanza, básica (preescolar, primaria y secundaria), media superior (preparatoria y normal) y superior (carrera técnica, profesional y maestría), por ello se agrupan los datos bajo estos tres tipos de enseñanza, así como creando un grupo para las personas sin estudios:
 
@@ -235,13 +388,13 @@ educacion2 <- educacion %>% mutate(Nivel=
                                ))
 ```
 
-Ya que el fin del proyecto va mas enfocado a dar énfasis al nivel educativo que al tipo de crimen, agrupamos todos los tipos de crímenes por municipio y año:
+Agrupamos nuestros datos por municipio, año y nivel de estudio:
 
 ```{r}
-educacionxaño <- educacion2 %>% group_by(Municipality, Year, Nivel)
+educacionxaño <- educacion2 %>% group_by(MunicipalityID, Year, Nivel)
 ```
 
-De la misma manera que la base de datos de crímenes, agrupamos por municipio y año:
+Sumamos el numero de personas por cada uno de nuestros niveles educativos:
 
 ```{r}
 dfeducacion <- educacionxaño %>% summarise(
@@ -258,7 +411,48 @@ dfeducacion <- pivot_wider(dfeducacion, names_from = Nivel, values_from = numper
 Sabiendo que ambas bases de datos cuentan con registros de municipios y años, realizamos nuestra unión basada en estas dos columnas:
 
 ```{r}
-dfproyecto <- merge(dfeducacion,dfcrimenes, by = c("Year", "Municipality"))
+dfproyecto <- merge(dfeducacion,dfcrimenes, by = c("Year", "MunicipalityID"))
 dfproyecto[is.na(dfproyecto)] <- 0
+```
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Ya que estamos haciendo referencia a la tasa de pobreza en el estado, descargamos dos bases de datos de Pobreza a escala municipal, que se hace cada 5 años por la CONEVAL. Descargamos los datos del 2015 y 2020 ya que son años que se encuentran en nuestras bases de datos de crímenes y nivel educativo:
+
+```{r}
+pobreza2015 <- read.csv('https://www.coneval.org.mx/Informes/Pobreza/Datos_abiertos/pobreza_municipal_2010-2020/indicadores%20de%20pobreza%20municipal_2015.csv')
+pobreza2020 <- read.csv('https://www.coneval.org.mx/Informes/Pobreza/Datos_abiertos/pobreza_municipal_2010-2020/indicadores%20de%20pobreza%20municipal_2020.csv')
+
+pobreza2015 <- pobreza2015[pobreza2015$clave_entidad %in% c("26"),]
+pobreza2020 <- pobreza2020[pobreza2020$clave_entidad %in% c("26"),]
+
+```
+
+Estos son estudios muy específicos, que nos muestran diferentes indicadores que clasifican a una persona en estado de pobreza; entre ellos, se toma en cuenta los accesos a servicios de salud, seguridad social, calidad y espacios de la vivienda, servicios básicos en la vivienda, alimentación y otros más. Para este análisis, me enfocare solamente en el porcentaje de pobreza por municipio, el cual, se calcula tomando en cuenta el numero total de habitantes entre el número de habitantes que entran a la clasificación de pobreza:
+
+```{r}
+pobreza2015 <- pobreza2015[, -c(1:2, 7:36)]
+pobreza2020 <- pobreza2020[, -c(1:2, 7:36)]
+
+pobreza2015 <- pobreza2015[, -c(3,5)]
+pobreza2020 <- pobreza2020[, -c(3,5)]
+
+colnames(pobreza2015)[1] = "Municipality ID"
+colnames(pobreza2020)[1] = "Municipality ID"
+
+colnames(pobreza2015)[3] = "PcgPobreza2015"
+colnames(pobreza2020)[3] = "PcgPobreza2020"
+
+```
+
+
+Finalmente, juntamos nuestros dos data frames y calculamos en una nueva columna el promedio del porcentaje de pobreza para los estudios del 2015 y 2020:
+```{r}
+dfproyecto2 <- merge(pobreza2015,pobreza2020, by = "Municipality ID")
+
+dfproyecto2$PcgPobreza2015 <- as.numeric(as.character(dfproyecto2$PcgPobreza2015))
+dfproyecto2$PcgPobreza2020 <- as.numeric(as.character(dfproyecto2$PcgPobreza2020))
+ 
+
+dfproyecto2$PcgPobrezaProm <- rowMeans(dfproyecto2[ , c(3,5)], na.rm=TRUE)
 ```
 
