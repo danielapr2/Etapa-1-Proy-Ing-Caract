@@ -22,6 +22,8 @@ El proyecto se divide en diferentes etapas:
 -	Análisis y exploración de datos
 -	Análisis de datos por medio de un tablero
 
+**El proyecto fue realizado con programación R y Software Tableau.**
+
 
 # Link al Tablero en Tableau:
 https://public.tableau.com/views/NiveldeeducacinypobrezanexosdelaviolenciaenMxico/Educacin?:language=en-US&:display_count=n&:origin=viz_share_link
