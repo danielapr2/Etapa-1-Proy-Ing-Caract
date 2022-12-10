@@ -21,3 +21,7 @@ El proyecto se divide en diferentes etapas:
 -	Limpieza de datos para su transformación en formato tidy
 -	Análisis y exploración de datos
 -	Análisis de datos por medio de un tablero
+
+
+# Link al Tablero en Tableau:
+https://public.tableau.com/views/NiveldeeducacinypobrezanexosdelaviolenciaenMxico/Educacin?:language=en-US&:display_count=n&:origin=viz_share_link
