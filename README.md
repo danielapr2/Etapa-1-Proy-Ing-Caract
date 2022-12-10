@@ -1,4 +1,4 @@
-# Proyecto Final: Ing. Caractisticas
+# Proyecto Final: Ing. Características
 
 ### Nivel de educación y pobreza: ¿nexos de la violencia en México?
 ### Ana Daniela Pérez Romero
