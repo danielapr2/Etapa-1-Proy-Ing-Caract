@@ -1,0 +1,585 @@
+"MunicipalityID","Municipality","Year","NumCrimenes"
+26001,"Aconchi",2015,9
+26001,"Aconchi",2016,56
+26001,"Aconchi",2017,20
+26001,"Aconchi",2018,13
+26001,"Aconchi",2019,17
+26001,"Aconchi",2020,8
+26001,"Aconchi",2021,52
+26001,"Aconchi",2022,13
+26002,"Agua Prieta",2015,696
+26002,"Agua Prieta",2016,677
+26002,"Agua Prieta",2017,361
+26002,"Agua Prieta",2018,307
+26002,"Agua Prieta",2019,732
+26002,"Agua Prieta",2020,1334
+26002,"Agua Prieta",2021,1634
+26002,"Agua Prieta",2022,750
+26003,"Álamos",2015,183
+26003,"Álamos",2016,180
+26003,"Álamos",2017,67
+26003,"Álamos",2018,96
+26003,"Álamos",2019,125
+26003,"Álamos",2020,91
+26003,"Álamos",2021,147
+26003,"Álamos",2022,77
+26004,"Altar",2015,71
+26004,"Altar",2016,90
+26004,"Altar",2017,25
+26004,"Altar",2018,3
+26004,"Altar",2019,15
+26004,"Altar",2020,39
+26004,"Altar",2021,71
+26004,"Altar",2022,43
+26005,"Arivechi",2015,7
+26005,"Arivechi",2016,12
+26005,"Arivechi",2017,1
+26005,"Arivechi",2018,2
+26005,"Arivechi",2019,2
+26005,"Arivechi",2020,6
+26005,"Arivechi",2021,15
+26005,"Arivechi",2022,2
+26006,"Arizpe",2015,11
+26006,"Arizpe",2016,31
+26006,"Arizpe",2017,17
+26006,"Arizpe",2018,3
+26006,"Arizpe",2019,1
+26006,"Arizpe",2020,2
+26006,"Arizpe",2021,21
+26006,"Arizpe",2022,6
+26007,"Atil",2015,1
+26007,"Atil",2016,1
+26007,"Atil",2017,2
+26007,"Atil",2018,0
+26007,"Atil",2019,0
+26007,"Atil",2020,0
+26007,"Atil",2021,3
+26007,"Atil",2022,1
+26008,"Bacadéhuachi",2015,5
+26008,"Bacadéhuachi",2016,5
+26008,"Bacadéhuachi",2017,1
+26008,"Bacadéhuachi",2018,0
+26008,"Bacadéhuachi",2019,1
+26008,"Bacadéhuachi",2020,4
+26008,"Bacadéhuachi",2021,15
+26008,"Bacadéhuachi",2022,3
+26009,"Bacanora",2015,6
+26009,"Bacanora",2016,8
+26009,"Bacanora",2017,4
+26009,"Bacanora",2018,3
+26009,"Bacanora",2019,1
+26009,"Bacanora",2020,2
+26009,"Bacanora",2021,13
+26009,"Bacanora",2022,0
+26010,"Bacerac",2015,2
+26010,"Bacerac",2016,2
+26010,"Bacerac",2017,0
+26010,"Bacerac",2018,0
+26010,"Bacerac",2019,0
+26010,"Bacerac",2020,8
+26010,"Bacerac",2021,15
+26010,"Bacerac",2022,0
+26011,"Bacoachi",2015,6
+26011,"Bacoachi",2016,4
+26011,"Bacoachi",2017,7
+26011,"Bacoachi",2018,6
+26011,"Bacoachi",2019,6
+26011,"Bacoachi",2020,5
+26011,"Bacoachi",2021,6
+26011,"Bacoachi",2022,5
+26012,"Bácum",2015,110
+26012,"Bácum",2016,142
+26012,"Bácum",2017,126
+26012,"Bácum",2018,83
+26012,"Bácum",2019,102
+26012,"Bácum",2020,162
+26012,"Bácum",2021,196
+26012,"Bácum",2022,109
+26013,"Banámichi",2015,2
+26013,"Banámichi",2016,26
+26013,"Banámichi",2017,4
+26013,"Banámichi",2018,5
+26013,"Banámichi",2019,2
+26013,"Banámichi",2020,6
+26013,"Banámichi",2021,20
+26013,"Banámichi",2022,9
+26014,"Baviácora",2015,20
+26014,"Baviácora",2016,30
+26014,"Baviácora",2017,11
+26014,"Baviácora",2018,7
+26014,"Baviácora",2019,10
+26014,"Baviácora",2020,12
+26014,"Baviácora",2021,33
+26014,"Baviácora",2022,9
+26015,"Bavispe",2015,5
+26015,"Bavispe",2016,1
+26015,"Bavispe",2017,3
+26015,"Bavispe",2018,0
+26015,"Bavispe",2019,5
+26015,"Bavispe",2020,5
+26015,"Bavispe",2021,12
+26015,"Bavispe",2022,0
+26016,"Benjamín Hill",2015,29
+26016,"Benjamín Hill",2016,78
+26016,"Benjamín Hill",2017,43
+26016,"Benjamín Hill",2018,42
+26016,"Benjamín Hill",2019,30
+26016,"Benjamín Hill",2020,63
+26016,"Benjamín Hill",2021,96
+26016,"Benjamín Hill",2022,20
+26017,"Caborca",2015,1189
+26017,"Caborca",2016,1619
+26017,"Caborca",2017,613
+26017,"Caborca",2018,507
+26017,"Caborca",2019,848
+26017,"Caborca",2020,1142
+26017,"Caborca",2021,1464
+26017,"Caborca",2022,983
+26018,"Cajeme",2015,4968
+26018,"Cajeme",2016,4921
+26018,"Cajeme",2017,4357
+26018,"Cajeme",2018,3774
+26018,"Cajeme",2019,5797
+26018,"Cajeme",2020,6180
+26018,"Cajeme",2021,7062
+26018,"Cajeme",2022,3798
+26019,"Cananea",2015,455
+26019,"Cananea",2016,393
+26019,"Cananea",2017,83
+26019,"Cananea",2018,28
+26019,"Cananea",2019,198
+26019,"Cananea",2020,340
+26019,"Cananea",2021,452
+26019,"Cananea",2022,324
+26020,"Carbó",2015,14
+26020,"Carbó",2016,34
+26020,"Carbó",2017,28
+26020,"Carbó",2018,18
+26020,"Carbó",2019,30
+26020,"Carbó",2020,18
+26020,"Carbó",2021,22
+26020,"Carbó",2022,11
+26021,"La Colorada",2015,10
+26021,"La Colorada",2016,22
+26021,"La Colorada",2017,13
+26021,"La Colorada",2018,14
+26021,"La Colorada",2019,12
+26021,"La Colorada",2020,10
+26021,"La Colorada",2021,11
+26021,"La Colorada",2022,1
+26022,"Cucurpe",2015,11
+26022,"Cucurpe",2016,9
+26022,"Cucurpe",2017,12
+26022,"Cucurpe",2018,7
+26022,"Cucurpe",2019,10
+26022,"Cucurpe",2020,15
+26022,"Cucurpe",2021,26
+26022,"Cucurpe",2022,2
+26023,"Cumpas",2015,27
+26023,"Cumpas",2016,56
+26023,"Cumpas",2017,13
+26023,"Cumpas",2018,20
+26023,"Cumpas",2019,9
+26023,"Cumpas",2020,54
+26023,"Cumpas",2021,74
+26023,"Cumpas",2022,33
+26024,"Divisaderos",2015,3
+26024,"Divisaderos",2016,2
+26024,"Divisaderos",2017,3
+26024,"Divisaderos",2018,1
+26024,"Divisaderos",2019,2
+26024,"Divisaderos",2020,1
+26024,"Divisaderos",2021,4
+26024,"Divisaderos",2022,2
+26025,"Empalme",2015,354
+26025,"Empalme",2016,455
+26025,"Empalme",2017,272
+26025,"Empalme",2018,263
+26025,"Empalme",2019,412
+26025,"Empalme",2020,339
+26025,"Empalme",2021,629
+26025,"Empalme",2022,506
+26026,"Etchojoa",2015,376
+26026,"Etchojoa",2016,449
+26026,"Etchojoa",2017,226
+26026,"Etchojoa",2018,170
+26026,"Etchojoa",2019,240
+26026,"Etchojoa",2020,562
+26026,"Etchojoa",2021,526
+26026,"Etchojoa",2022,260
+26027,"Fronteras",2015,28
+26027,"Fronteras",2016,59
+26027,"Fronteras",2017,20
+26027,"Fronteras",2018,18
+26027,"Fronteras",2019,33
+26027,"Fronteras",2020,89
+26027,"Fronteras",2021,74
+26027,"Fronteras",2022,25
+26028,"Granados",2015,0
+26028,"Granados",2016,4
+26028,"Granados",2017,2
+26028,"Granados",2018,2
+26028,"Granados",2019,2
+26028,"Granados",2020,0
+26028,"Granados",2021,2
+26028,"Granados",2022,1
+26029,"Guaymas",2015,963
+26029,"Guaymas",2016,1094
+26029,"Guaymas",2017,613
+26029,"Guaymas",2018,482
+26029,"Guaymas",2019,628
+26029,"Guaymas",2020,1027
+26029,"Guaymas",2021,1855
+26029,"Guaymas",2022,1145
+26030,"Hermosillo",2015,10955
+26030,"Hermosillo",2016,19092
+26030,"Hermosillo",2017,12579
+26030,"Hermosillo",2018,7255
+26030,"Hermosillo",2019,8550
+26030,"Hermosillo",2020,11615
+26030,"Hermosillo",2021,12111
+26030,"Hermosillo",2022,6267
+26031,"Huachinera",2015,5
+26031,"Huachinera",2016,2
+26031,"Huachinera",2017,3
+26031,"Huachinera",2018,1
+26031,"Huachinera",2019,2
+26031,"Huachinera",2020,4
+26031,"Huachinera",2021,8
+26031,"Huachinera",2022,0
+26032,"Huásabas",2015,7
+26032,"Huásabas",2016,8
+26032,"Huásabas",2017,2
+26032,"Huásabas",2018,1
+26032,"Huásabas",2019,1
+26032,"Huásabas",2020,2
+26032,"Huásabas",2021,3
+26032,"Huásabas",2022,1
+26033,"Huatabampo",2015,418
+26033,"Huatabampo",2016,915
+26033,"Huatabampo",2017,527
+26033,"Huatabampo",2018,431
+26033,"Huatabampo",2019,394
+26033,"Huatabampo",2020,462
+26033,"Huatabampo",2021,629
+26033,"Huatabampo",2022,278
+26034,"Huépac",2015,4
+26034,"Huépac",2016,9
+26034,"Huépac",2017,2
+26034,"Huépac",2018,0
+26034,"Huépac",2019,1
+26034,"Huépac",2020,2
+26034,"Huépac",2021,5
+26034,"Huépac",2022,1
+26035,"Imuris",2015,51
+26035,"Imuris",2016,103
+26035,"Imuris",2017,83
+26035,"Imuris",2018,52
+26035,"Imuris",2019,59
+26035,"Imuris",2020,103
+26035,"Imuris",2021,146
+26035,"Imuris",2022,49
+26036,"Magdalena",2015,209
+26036,"Magdalena",2016,342
+26036,"Magdalena",2017,284
+26036,"Magdalena",2018,183
+26036,"Magdalena",2019,199
+26036,"Magdalena",2020,305
+26036,"Magdalena",2021,585
+26036,"Magdalena",2022,183
+26037,"Mazatán",2015,5
+26037,"Mazatán",2016,18
+26037,"Mazatán",2017,10
+26037,"Mazatán",2018,10
+26037,"Mazatán",2019,8
+26037,"Mazatán",2020,5
+26037,"Mazatán",2021,14
+26037,"Mazatán",2022,7
+26038,"Moctezuma",2015,21
+26038,"Moctezuma",2016,15
+26038,"Moctezuma",2017,23
+26038,"Moctezuma",2018,6
+26038,"Moctezuma",2019,4
+26038,"Moctezuma",2020,29
+26038,"Moctezuma",2021,32
+26038,"Moctezuma",2022,18
+26039,"Naco",2015,42
+26039,"Naco",2016,26
+26039,"Naco",2017,12
+26039,"Naco",2018,3
+26039,"Naco",2019,32
+26039,"Naco",2020,42
+26039,"Naco",2021,64
+26039,"Naco",2022,62
+26040,"Nácori Chico",2015,2
+26040,"Nácori Chico",2016,7
+26040,"Nácori Chico",2017,1
+26040,"Nácori Chico",2018,1
+26040,"Nácori Chico",2019,8
+26040,"Nácori Chico",2020,1
+26040,"Nácori Chico",2021,16
+26040,"Nácori Chico",2022,1
+26041,"Nacozari de García",2015,100
+26041,"Nacozari de García",2016,128
+26041,"Nacozari de García",2017,25
+26041,"Nacozari de García",2018,23
+26041,"Nacozari de García",2019,9
+26041,"Nacozari de García",2020,102
+26041,"Nacozari de García",2021,234
+26041,"Nacozari de García",2022,152
+26042,"Navojoa",2015,1178
+26042,"Navojoa",2016,1626
+26042,"Navojoa",2017,1976
+26042,"Navojoa",2018,1408
+26042,"Navojoa",2019,799
+26042,"Navojoa",2020,1294
+26042,"Navojoa",2021,1991
+26042,"Navojoa",2022,871
+26043,"Nogales",2015,1690
+26043,"Nogales",2016,1810
+26043,"Nogales",2017,1240
+26043,"Nogales",2018,1438
+26043,"Nogales",2019,1819
+26043,"Nogales",2020,1853
+26043,"Nogales",2021,2685
+26043,"Nogales",2022,1483
+26044,"Ónavas",2015,3
+26044,"Ónavas",2016,3
+26044,"Ónavas",2017,3
+26044,"Ónavas",2018,5
+26044,"Ónavas",2019,8
+26044,"Ónavas",2020,1
+26044,"Ónavas",2021,6
+26044,"Ónavas",2022,0
+26045,"Opodepe",2015,3
+26045,"Opodepe",2016,19
+26045,"Opodepe",2017,9
+26045,"Opodepe",2018,4
+26045,"Opodepe",2019,9
+26045,"Opodepe",2020,16
+26045,"Opodepe",2021,18
+26045,"Opodepe",2022,6
+26046,"Oquitoa",2015,1
+26046,"Oquitoa",2016,4
+26046,"Oquitoa",2017,0
+26046,"Oquitoa",2018,1
+26046,"Oquitoa",2019,0
+26046,"Oquitoa",2020,3
+26046,"Oquitoa",2021,0
+26046,"Oquitoa",2022,0
+26047,"Pitiquito",2015,43
+26047,"Pitiquito",2016,69
+26047,"Pitiquito",2017,28
+26047,"Pitiquito",2018,22
+26047,"Pitiquito",2019,30
+26047,"Pitiquito",2020,68
+26047,"Pitiquito",2021,97
+26047,"Pitiquito",2022,43
+26048,"Puerto Peñasco",2015,563
+26048,"Puerto Peñasco",2016,839
+26048,"Puerto Peñasco",2017,242
+26048,"Puerto Peñasco",2018,170
+26048,"Puerto Peñasco",2019,601
+26048,"Puerto Peñasco",2020,590
+26048,"Puerto Peñasco",2021,521
+26048,"Puerto Peñasco",2022,172
+26049,"Quiriego",2015,16
+26049,"Quiriego",2016,16
+26049,"Quiriego",2017,57
+26049,"Quiriego",2018,5
+26049,"Quiriego",2019,8
+26049,"Quiriego",2020,9
+26049,"Quiriego",2021,26
+26049,"Quiriego",2022,5
+26050,"Rayón",2015,9
+26050,"Rayón",2016,14
+26050,"Rayón",2017,3
+26050,"Rayón",2018,5
+26050,"Rayón",2019,12
+26050,"Rayón",2020,3
+26050,"Rayón",2021,8
+26050,"Rayón",2022,2
+26051,"Rosario",2015,49
+26051,"Rosario",2016,30
+26051,"Rosario",2017,86
+26051,"Rosario",2018,15
+26051,"Rosario",2019,22
+26051,"Rosario",2020,17
+26051,"Rosario",2021,46
+26051,"Rosario",2022,33
+26052,"Sahuaripa",2015,45
+26052,"Sahuaripa",2016,125
+26052,"Sahuaripa",2017,38
+26052,"Sahuaripa",2018,22
+26052,"Sahuaripa",2019,25
+26052,"Sahuaripa",2020,37
+26052,"Sahuaripa",2021,82
+26052,"Sahuaripa",2022,10
+26053,"San Felipe de Jesús",2015,2
+26053,"San Felipe de Jesús",2016,6
+26053,"San Felipe de Jesús",2017,5
+26053,"San Felipe de Jesús",2018,0
+26053,"San Felipe de Jesús",2019,0
+26053,"San Felipe de Jesús",2020,0
+26053,"San Felipe de Jesús",2021,3
+26053,"San Felipe de Jesús",2022,5
+26054,"San Javier",2015,2
+26054,"San Javier",2016,5
+26054,"San Javier",2017,10
+26054,"San Javier",2018,3
+26054,"San Javier",2019,1
+26054,"San Javier",2020,2
+26054,"San Javier",2021,0
+26054,"San Javier",2022,1
+26055,"San Luis Río Colorado",2015,2832
+26055,"San Luis Río Colorado",2016,2744
+26055,"San Luis Río Colorado",2017,1181
+26055,"San Luis Río Colorado",2018,890
+26055,"San Luis Río Colorado",2019,1066
+26055,"San Luis Río Colorado",2020,1712
+26055,"San Luis Río Colorado",2021,2398
+26055,"San Luis Río Colorado",2022,1168
+26056,"San Miguel de Horcasitas",2015,11
+26056,"San Miguel de Horcasitas",2016,54
+26056,"San Miguel de Horcasitas",2017,42
+26056,"San Miguel de Horcasitas",2018,23
+26056,"San Miguel de Horcasitas",2019,30
+26056,"San Miguel de Horcasitas",2020,31
+26056,"San Miguel de Horcasitas",2021,36
+26056,"San Miguel de Horcasitas",2022,7
+26057,"San Pedro de la Cueva",2015,3
+26057,"San Pedro de la Cueva",2016,5
+26057,"San Pedro de la Cueva",2017,2
+26057,"San Pedro de la Cueva",2018,2
+26057,"San Pedro de la Cueva",2019,3
+26057,"San Pedro de la Cueva",2020,9
+26057,"San Pedro de la Cueva",2021,2
+26057,"San Pedro de la Cueva",2022,0
+26058,"Santa Ana",2015,96
+26058,"Santa Ana",2016,143
+26058,"Santa Ana",2017,108
+26058,"Santa Ana",2018,74
+26058,"Santa Ana",2019,104
+26058,"Santa Ana",2020,133
+26058,"Santa Ana",2021,259
+26058,"Santa Ana",2022,67
+26059,"Santa Cruz",2015,0
+26059,"Santa Cruz",2016,3
+26059,"Santa Cruz",2017,2
+26059,"Santa Cruz",2018,1
+26059,"Santa Cruz",2019,7
+26059,"Santa Cruz",2020,2
+26059,"Santa Cruz",2021,3
+26059,"Santa Cruz",2022,1
+26060,"Sáric",2015,20
+26060,"Sáric",2016,15
+26060,"Sáric",2017,6
+26060,"Sáric",2018,0
+26060,"Sáric",2019,2
+26060,"Sáric",2020,4
+26060,"Sáric",2021,11
+26060,"Sáric",2022,5
+26061,"Soyopa",2015,5
+26061,"Soyopa",2016,17
+26061,"Soyopa",2017,12
+26061,"Soyopa",2018,6
+26061,"Soyopa",2019,7
+26061,"Soyopa",2020,9
+26061,"Soyopa",2021,6
+26061,"Soyopa",2022,9
+26062,"Suaqui Grande",2015,2
+26062,"Suaqui Grande",2016,6
+26062,"Suaqui Grande",2017,3
+26062,"Suaqui Grande",2018,3
+26062,"Suaqui Grande",2019,3
+26062,"Suaqui Grande",2020,3
+26062,"Suaqui Grande",2021,2
+26062,"Suaqui Grande",2022,0
+26063,"Tepache",2015,4
+26063,"Tepache",2016,7
+26063,"Tepache",2017,2
+26063,"Tepache",2018,4
+26063,"Tepache",2019,0
+26063,"Tepache",2020,1
+26063,"Tepache",2021,0
+26063,"Tepache",2022,3
+26064,"Trincheras",2015,16
+26064,"Trincheras",2016,24
+26064,"Trincheras",2017,10
+26064,"Trincheras",2018,4
+26064,"Trincheras",2019,13
+26064,"Trincheras",2020,9
+26064,"Trincheras",2021,11
+26064,"Trincheras",2022,9
+26065,"Tubutama",2015,12
+26065,"Tubutama",2016,13
+26065,"Tubutama",2017,4
+26065,"Tubutama",2018,2
+26065,"Tubutama",2019,0
+26065,"Tubutama",2020,8
+26065,"Tubutama",2021,4
+26065,"Tubutama",2022,4
+26066,"Ures",2015,151
+26066,"Ures",2016,165
+26066,"Ures",2017,64
+26066,"Ures",2018,28
+26066,"Ures",2019,50
+26066,"Ures",2020,46
+26066,"Ures",2021,68
+26066,"Ures",2022,20
+26067,"Villa Hidalgo",2015,4
+26067,"Villa Hidalgo",2016,12
+26067,"Villa Hidalgo",2017,7
+26067,"Villa Hidalgo",2018,1
+26067,"Villa Hidalgo",2019,0
+26067,"Villa Hidalgo",2020,10
+26067,"Villa Hidalgo",2021,3
+26067,"Villa Hidalgo",2022,7
+26068,"Villa Pesqueira",2015,2
+26068,"Villa Pesqueira",2016,14
+26068,"Villa Pesqueira",2017,8
+26068,"Villa Pesqueira",2018,4
+26068,"Villa Pesqueira",2019,10
+26068,"Villa Pesqueira",2020,3
+26068,"Villa Pesqueira",2021,10
+26068,"Villa Pesqueira",2022,1
+26069,"Yécora",2015,55
+26069,"Yécora",2016,63
+26069,"Yécora",2017,41
+26069,"Yécora",2018,32
+26069,"Yécora",2019,23
+26069,"Yécora",2020,59
+26069,"Yécora",2021,88
+26069,"Yécora",2022,22
+26070,"General Plutarco Elías Calles",2015,120
+26070,"General Plutarco Elías Calles",2016,126
+26070,"General Plutarco Elías Calles",2017,80
+26070,"General Plutarco Elías Calles",2018,47
+26070,"General Plutarco Elías Calles",2019,42
+26070,"General Plutarco Elías Calles",2020,83
+26070,"General Plutarco Elías Calles",2021,120
+26070,"General Plutarco Elías Calles",2022,56
+26071,"Benito Juárez",2015,292
+26071,"Benito Juárez",2016,257
+26071,"Benito Juárez",2017,127
+26071,"Benito Juárez",2018,80
+26071,"Benito Juárez",2019,139
+26071,"Benito Juárez",2020,828
+26071,"Benito Juárez",2021,318
+26071,"Benito Juárez",2022,106
+26072,"San Ignacio Río Muerto",2015,39
+26072,"San Ignacio Río Muerto",2016,33
+26072,"San Ignacio Río Muerto",2017,56
+26072,"San Ignacio Río Muerto",2018,44
+26072,"San Ignacio Río Muerto",2019,57
+26072,"San Ignacio Río Muerto",2020,42
+26072,"San Ignacio Río Muerto",2021,60
+26072,"San Ignacio Río Muerto",2022,41
+26999,"No Informado",2015,11
+26999,"No Informado",2016,30
+26999,"No Informado",2017,19
+26999,"No Informado",2018,14
+26999,"No Informado",2019,11
+26999,"No Informado",2020,9
+26999,"No Informado",2021,22
+26999,"No Informado",2022,16
