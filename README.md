@@ -24,7 +24,9 @@ El proyecto se divide en diferentes etapas:
 
 **El proyecto fue realizado con programación R y Software Tableau.**
 
-### Etapa 1:Obtención de datos de diferentes fuentes de datos:
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+## Etapa 1:Obtención de datos de diferentes fuentes de datos:
 
 #### Información Educativa en México - Data Mexico:
 https://api.datamexico.org/tesseract/data.jsonrecordsState=26&cube=inegi_enoe&drilldowns=Municipality%2CYear%2CInstruction+Level&locale=es&measures=Number+of+Records%2CMonthly+Wage
@@ -38,6 +40,6 @@ https://www.coneval.org.mx/Informes/Pobreza/Datos_abiertos/pobreza_municipal_201
 #### Pobreza en México 2020 - CONEVAL:
 https://www.coneval.org.mx/Informes/Pobreza/Datos_abiertos/pobreza_municipal_2010-2020/indicadores%20de%20pobreza%20municipal_2020.csv
 
-
-# Link al Tablero en Tableau:
+## Etapa 3: Análisis de datos por medio de herramientas de visualización
+### Link al Tablero en Tableau:
 https://public.tableau.com/views/NiveldeeducacinypobrezanexosdelaviolenciaenMxico/Educacin?:language=en-US&:display_count=n&:origin=viz_share_link
