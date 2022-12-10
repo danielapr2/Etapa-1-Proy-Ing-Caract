@@ -51,9 +51,18 @@ Se agruparon los niveles educativos registrados por municipio:
 - Educación Superior: carrera técnica, profesional y maestría
 - Sin Educación
 
+Archivo Final: dfeducacion.csv
+
 #### Información Delictiva en México:
 Se agrupan todos los diferentes tipos de crímenes para hacer una sumatoria total por municipio.
                             
+Archivo Final: dfcrimenes.csv
+
+#### Pobreza en México:
+Archivo Final: dfpobreza.csv
+
+Archivo del proyecto: dfproyecto.csv
+
 
 ## Etapa 3: Análisis de datos por medio de herramientas de visualización
 ### Link al Tablero en Tableau:
