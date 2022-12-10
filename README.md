@@ -40,6 +40,21 @@ https://www.coneval.org.mx/Informes/Pobreza/Datos_abiertos/pobreza_municipal_201
 #### Pobreza en México 2020 - CONEVAL:
 https://www.coneval.org.mx/Informes/Pobreza/Datos_abiertos/pobreza_municipal_2010-2020/indicadores%20de%20pobreza%20municipal_2020.csv
 
+
+## Etapa 2: Creación de tablas tidy y análisis exploratorio de datos
+Para la creación de archivos tidy se hicieron las siguientes modificaciones a los datos de entrada:
+
+#### Información Educativa en México:
+Se agruparon los niveles educativos registrados por municipio:
+- Educación Básica: preescolar, primaria y sencundaria
+- Educación Media Superior: preparatoria y normal
+- Educación Superior: carrera técnica, profesional y maestría
+- Sin Educación
+
+#### Información Delictiva en México:
+Se agrupan todos los diferentes tipos de crímenes para hacer una sumatoria total por municipio.
+                            
+
 ## Etapa 3: Análisis de datos por medio de herramientas de visualización
 ### Link al Tablero en Tableau:
 https://public.tableau.com/views/NiveldeeducacinypobrezanexosdelaviolenciaenMxico/Educacin?:language=en-US&:display_count=n&:origin=viz_share_link
